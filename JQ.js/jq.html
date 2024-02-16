@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            display: block;
+            margin: 20px;
+        }
+
+        button {
+            margin-left: 150px;
+            padding: 10px;
+            background: black;
+            color: white;
+        }
+        h1 {
+            margin-left: 130px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="https://media.licdn.com/dms/image/C4E12AQGt0_65lSydGw/article-cover_image-shrink_600_2000/0/1520095809417?e=2147483647&v=beta&t=RYqqBn0rlVnHMa40OhQ2mBNvH2xN5aZFl1_6OUNaCdo"
+            alt="" height="180px">
+        <h1>movie</h1>
+        <button>click</button>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $("button").click(() => {
+        // var findImgWidth = $("img").width("400px");
+        // var findImgWidth = $("img").height("400px");
+
+        $("img").attr("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzAHGSMC4pXma1Iu2ReCWOX4zy3aMOIRTGhA&usqp=CAU");
+        $("h1").text("reality");
+    });
+</script>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="mainDiv">
+        <div id="imgDiv1">
+           <img src="https://www.axismunditravel.com/wp-content/uploads/2017/11/Maybach-S560.png" alt="" height="400px" id="img1">
+           <div id="btnDiv">
+            <button class="button" id="hide1"><span>hide </span></button>
+            <button class="button" id="show1"><span>show </span></button>
+           </div>
+        </div>
+
+
+      <div id="imgDiv2">
+        <img src="https://files.porsche.com/filestore/image/multimedia/none/992-gt3-modelimage-sideshot/model/765dfc51-51bc-11eb-80d1-005056bbdc38/porsche-model.png"
+            alt="" height="400px" id="img2">
+            <div id="btnDiv2">
+                <button class="button" id="hide2"><span>hide </span></button>
+                <button class="button" id="show2"><span>show </span></button>
+               </div>
+      </div>
+        
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+       $("#hide1").click(()=>{
+         $("#img1").css("visibility", "hidden")
+       })
+       $("#show1").click(()=>{
+         $("#img1").css("visibility","visible")
+       })
+       $("#hide2").click(()=>{
+         $("#img2").css("visibility", "hidden")
+         $
+       })
+       $("#show2").click(()=>{
+         $("#img2").css("visibility", "visible")
+       })
+
+</script>
+
+</html>
