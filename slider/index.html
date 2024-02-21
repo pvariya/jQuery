@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+
+<body>
+  <div id="mainDiv">
+    <div id="perentDiv">
+        <div><img id="imgLogo"
+                src="https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Mountain-logo-Design-Graphics-9785421-1-580x435.png"
+                alt="" height="10px"></i></div>
+        <div id="name">
+            <ul>
+                <li><a href="" class="font">home</a></li>
+                <li><a href="" class="font">about</a></li>
+                <li><a href="" class="font">contact</a></li>
+                <li><a href="" class="font">login</a></li>
+            </ul>
+        </div>
+        <div id="logo"><i class="fa-solid fa-bars"></i></div>
+    </div>
+</div>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" id="bg1"><img src="https://www.icegif.com/wp-content/uploads/2022/02/icegif-45.gif" alt=""></div>
+      <div class="swiper-slide" id="bg2"><img src="https://i.gifer.com/UUjj.gif" alt=""></div>
+      <div class="swiper-slide" id="bg3"><img src="https://www.icegif.com/wp-content/uploads/2022/02/icegif-66.gif" alt=""></div>
+      <div class="swiper-slide" id="bg4"><img src="https://media1.tenor.com/m/48At-FGuwowAAAAC/avengers-running.gif" alt=""></div>
+      <div class="swiper-slide" id="bg5"><img src="https://i.gifer.com/4Yco.gif" alt=""></div>
+      <div class="swiper-slide" id="bg6"><img src="https://24.media.tumblr.com/f6e7b0b3a8585a6452e4e2d9014716d2/tumblr_mfvcj0sMu61rc6yw8o1_500.gif" alt=""></div>
+      <div class="swiper-slide" id="bg7"><img src="https://giffiles.alphacoders.com/105/10553.gif" alt=""></div>
+      <div class="swiper-slide" id="bg8"><img src="https://i.gifer.com/XXpF.gif" alt=""></div>
+      <div class="swiper-slide" id="bg9"><img src="https://cradleview.net/wp-content/uploads/2023/03/SandyPowerlessGenet-size_restricted.gif" alt=""></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    $("#logo").click(()=>{
+        $("#name").slideToggle()
+        $("name").css(()=>{
+          "font-size", "10px"
+        })
+    })
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    
+  </script>
+</body>
+
+</html>

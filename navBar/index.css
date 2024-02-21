@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#perentDiv{
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    align-items: center;
+}
+#logo{
+   /* height: 110px; */
+   color: white;
+   /* padding-top: 23px; */
+   display: none;
+   margin-right: 20px;
+}
+#name ul{
+    display: flex;
+    list-style: none;
+}
+#name ul li a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#name{
+   margin-left: 20px;
+}
+#imgLogo{
+    /* padding-top: 10px; */
+    margin-top: 10px;
+}
+@media (max-width:768px) {
+    #logo{
+        color: white;
+        display: block;
+     }
+     #name{
+        display: none;
+    }
+
+}
