@@ -1,0 +1,251 @@
+*{
+    padding:0;
+    margin: 0;
+}
+#nav-bg{
+    height:710px;
+    width: 1901px;
+    background-image: url(https://supercell.com/images/ae58a39e76410b4ae9c2bea65d4a584d/hero_bg_clashofclans_.fae7c799.webp);
+    /* background-repeat:; */
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+}
+#navBar{
+    height: 100px;
+    width: 1488px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: sticky;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+#menu a{
+    text-decoration: none;
+    color:white;
+    font-family: "SupercellText-Medium, Helvetica, Arial, sans-serif";
+    margin-right: 30px;
+}
+a:hover{
+    border:1px white;
+    cursor: pointer;
+
+}       
+#search-logo{
+    display: flex;
+    justify-content: center ;
+    margin-bottom: 7px;
+}
+#input{
+    display: none;
+}
+#img1{
+    margin-left: -200px;;
+}
+#div1{
+    margin-top: 100px;
+    display: flex;
+    font-family: SupercellHeadline-Heavy, sans-serif;   
+}
+#imgD  h1{
+   margin-bottom: 40px;
+}
+#imgD  p{
+    margin-bottom: 40px;
+    line-height: 30px;
+    font-size: 18px;
+}
+#imgD{
+    margin-left: 230px;
+    margin-top: 70px;
+}
+#news{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+}
+#mainNews{
+    margin-top: 100px;
+}
+#news-name{
+    text-align:center ;
+    font-size: 34px;
+}
+#news-img1 p{
+    padding-top: 20px;      
+    text-align: center;
+    color: #FB4A9D;
+    font-weight: 600;
+    font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+}
+#news-img2  p{
+    padding-top: 20px;
+    text-align: center;
+    color: #FB4A9D;
+    font-weight: 600;
+    font-family: SupercellText-Bold, Helvetica, Arial, sans-serif;
+}
+#news-img1 h3{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 200;
+    font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;
+}
+#news-img2 h3{
+    padding-top: 20px;
+    text-align: center;
+    font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+#news-btn-div{
+  display: flex;
+  justify-content: center;
+}
+#SEE-THE-LATEST{
+    margin-top: 100px;
+}
+#news-btn{
+    padding: 10px;
+    background-color: #2D85F3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+#SEE-THE-LATEST-bgImg{
+    margin-top: 50px;
+    width: 1903px;
+    height: 623px;
+    background-size: cover;
+    background-image: url(https://supercell.com/images/58b140f4e7e9576dc00aa8e0435aecce/bg_gamesocial_clashofclans.6d3e064f.webp);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#LATEST-img{
+    margin-right: -500px;
+}
+#LATEST-imgdiv{
+    display: flex;
+    justify-content: end;
+}
+#LATEST-info h1{
+    color: white;
+    font-family: SupercellHeadline-Heavy, sans-serif;
+    margin: 20px;
+}
+#LATEST-info p{
+    color: white;
+    margin: 20px;
+    line-height: 25px;
+    font-family: SupercellHeadline-Heavy, sans-serif;
+}
+#LATEST-info h4{
+    color: white;
+    margin: 20px;
+    font-family: SupercellHeadline-Heavy, sans-serif;
+}
+#LATEST-logo img{
+    margin-left: 10px;
+}
+#LATEST-logo{
+    margin-left: 10px;
+}
+
+/* slider */
+#Interested{
+    margin-top: 150px;
+    height: 190px;
+    background-color: #277FE8;
+    display: flex  ;
+   justify-content: center;
+}
+#Interested-img{
+height: 245px;
+position: absolute;
+top: -55px;
+margin-left: 600px;
+}
+#Interested-imgDiv{
+    position: relative;
+}
+#Interested-info{
+    margin-left:-900px;
+   margin-top: 2.7%;
+}
+#Interested-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;margin-top: 10px;
+}
+#Interested-heding{
+    font-family: font-family SupercellHeadline-Heavy, sans-serif;
+}
+#footer{
+    height: 470px;
+    background-color: black;
+}
+#footer1-p{
+    color: white;
+    margin-top: 50px;
+}
+#footer1{
+display: flex;
+justify-content:space-around;
+}
+#footer1-item2-img1{
+    height: 50px;
+    width: 148px;
+    margin-top: 50px;
+}
+#footer1-item2-img2{
+    height: 50px;
+    width: 167px;
+    margin-top: 50px;
+}
+#footer1-item1 img{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+hr{
+    margin-top: 40px;
+    width: 1250px;
+    text-align: center;
+}
+#hrdiv{
+    display:flex;
+    justify-content: center;
+}
+#footer2{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 50px;
+}
+#footer2-item1 a{
+    text-decoration: none;color: white;
+    margin-right: 15px;
+    font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;
+}
+#footer2-item1-p{
+    color: #666666;
+    margin-top: 15px;
+    font-family: SupercellText-Medium, Helvetica, Arial, sans-serif;
+}
+#footer2-item2 img{
+width: 52px;
+height: 43px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
