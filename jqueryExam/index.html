@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-do-List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="pp">
+    <button id="btn1">
+      Dark / light
+    </button>
+  </div>
+  <div id="Parent">
+    <h1>To-Do list</h1>
+  </div>
+  <form>
+    <input type="text" id="text" placeholder="Add New Task">
+  </form>
+  <br><br>
+  <div id="add">
+    <button class="gr">
+      <h2>Add Task</h2>
+    </button>
+  </div>
+  
+  <div id="addmenu">
+    <ul id="box2">
+    </ul>
+  </div>
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+  $(".gr").click(function () {
+    var taskName = $("#text").val();
+    if (taskName !== "") {
+      $("#box2").append(
+        '<h4><span class="text">' +
+        taskName +
+        '</span><button id="remove">Delete</button></h4>'
+      );
+      $("#text").val("");
+    }
+  });
+  $("#box2").on("click", ".text", function () {
+
+    $(this).toggleClass("hide");
+
+  });
+  // $("#box2").on("click", "#remove", function () {
+
+  //   $(this).parent().remove();
+
+  // });
+  $('.text').on('click', function (e) {
+
+    navigator.vibrate(250);
+
+  });
+  $('#pp').click(function () {
+    $('body').toggleClass('dark-mode');
+  });
+</script>
+
+</html>

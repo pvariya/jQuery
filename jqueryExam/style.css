@@ -1,0 +1,133 @@
+body.dark-mode
+{
+    background-color: #000000;
+    color: white;
+}
+#btn1{
+  border: none;
+}
+
+#pp
+{
+    display: flex;
+    justify-content: end;
+}
+#pp:hover
+{
+    cursor: pointer;
+}
+h3:hover
+{
+    cursor: pointer;
+}
+#Parent
+{
+    display: flex;
+    justify-content: center;
+    
+}
+input
+{
+    font-size: 25px;
+}
+h1
+{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+    font-size: 50px;
+}
+
+form
+{
+    display: flex;
+    justify-content: center;
+}
+input
+{
+    height: 50px;
+    width: 900px;
+    border-radius: 5px;
+}
+#add
+{
+    
+    display: flex;
+    justify-content: center;
+}
+#add:hover
+{
+    cursor: pointer;
+}
+
+  h4 {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+  }
+  
+  #text{
+    width: 75%;
+    padding: 10px;
+    font-size: 26px;
+    margin: 10px auto;
+    display: block;
+  }
+  
+  .gr {
+    background-color: #4caf50;
+    color: white;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .gr:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+  }
+  
+  .text {
+    flex-grow: 1;
+    cursor: pointer;
+    color: black;
+  }
+  
+  #remove {
+    background-color: #fa2819;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  #remove:hover {
+    background-color: #dd1919;
+  }
+  
+  .hide {
+    text-decoration: line-through;
+    color: gray;
+  }
+  #addmenu{
+    display: flex;
+   
+    
+    justify-content: center;
+    
+  }
+  ul{
+    width: 60%;
+  }
